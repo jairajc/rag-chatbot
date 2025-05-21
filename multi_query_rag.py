@@ -12,7 +12,8 @@ from langchain_core.output_parsers import StrOutputParser
 load_dotenv()
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
-os.environ['LANGCHAIN_API_KEY'] = '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'
+os.environ['LANGCHAIN_API_KEY'] = 'Your langchaim API key'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = 'Your huggingface API key'
 
 # --- INDEXING ---
 loader = WebBaseLoader(
